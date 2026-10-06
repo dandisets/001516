@@ -24,8 +24,8 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured: []
 citation: Silkuniene, Giedre; Semenov, Iurii; Pakhomov, Andrei (2026) Plasma Membrane
-  Recovery of Cells Following 1 us Electroporation Pulse (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/001516/draft
+  Recovery of Cells Following 1 us Electroporation Pulse (Version 0.261006.1833) [Data
+  set]. DANDI Archive. https://doi.org/10.48324/dandi.001516/0.261006.1833
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -53,19 +53,33 @@ contributor:
   name: Pakhomov, Andrei
   schemaKey: Person
 dateCreated: '2025-06-27T16:04:47.909136+00:00'
+datePublished: '2026-10-06T18:33:53.159450+00:00'
 description: 'This experiment focused on visualizing and characterizing the recovery
   dynamics of the plasma membrane in CHO cells following electroporation induced by
   a 1-us electric pulse. Each cell underwent a sequence of 60 exposures: 20 sham exposures
   with no pulse applied and 40 exposures with one or two 1-us pulses of varying amplitudes
   and interval between pulses.'
+doi: 10.48324/dandi.001516/0.261006.1833
 ethicsApproval: []
-id: DANDI:001516/draft
+id: DANDI:001516/0.261006.1833
 identifier: DANDI:001516
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001516/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001516/0.261006.1833/assets.yaml
 name: Plasma Membrane Recovery of Cells Following 1 us Electroporation Pulse
+publishedBy:
+  endDate: '2026-10-06T18:33:53.159450+00:00'
+  id: urn:uuid:b80b377a-eef8-44a3-a8e9-a295e0854c2a
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-06T18:33:53.159450+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:825102b4-1f89-4549-a8f8-dac68b12eaeb
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1016/j.bioelechem.2026.109283
   name: Sub-microsecond optical measurements of cell membrane charging and lesioning
@@ -76,8 +90,8 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
-url: https://dandiarchive.org/dandiset/001516/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001516/0.261006.1833
+version: 0.261006.1833
 wasGeneratedBy:
 - identifier: 1R21EY034258
   name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
